@@ -11,7 +11,7 @@ export default function RentalGuaranteePage() {
       <section className="relative bg-gray-900 py-20 md:py-28">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/rental-guarantee-handshake.png"
+            src="https://static.wixstatic.com/media/7cb661_0b60b655e27c47278f97e86fb83accd7~mv2.png"
             alt="Rental Guarantee"
             fill
             className="object-cover opacity-30"
@@ -386,7 +386,7 @@ export default function RentalGuaranteePage() {
             </div>
             <div className="relative rounded-xl overflow-hidden border shadow-xl">
               <Image
-                src="/placeholder.svg?height=500&width=700&query=tenant screening background check process"
+                src="https://static.wixstatic.com/media/7cb661_ec64dbbbe84545f0b0c6c4072f063607~mv2.jpg"
                 alt="Tenant screening process"
                 width={700}
                 height={500}
@@ -429,7 +429,7 @@ export default function RentalGuaranteePage() {
               </div>
               <div className="relative rounded-xl overflow-hidden mt-8">
                 <Image
-                  src="/placeholder.svg?height=300&width=500&query=map showing service coverage areas"
+                  src="https://static.wixstatic.com/media/7cb661_fea217ffeece40b283420c9277e99ab2~mv2.png"
                   alt="Service areas map"
                   width={500}
                   height={300}

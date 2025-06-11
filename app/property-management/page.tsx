@@ -11,7 +11,7 @@ export default function PropertyManagementPage() {
       <section className="relative bg-gray-900 py-20 md:py-28">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=800&width=1600&query=professional property manager with tablet at building"
+            src="https://static.wixstatic.com/media/7cb661_b67ee492d2c1410dbd4758fe494864f8~mv2.png"
             alt="Property Management"
             fill
             className="object-cover opacity-30"
@@ -97,7 +97,7 @@ export default function PropertyManagementPage() {
             </div>
             <div className="relative rounded-xl overflow-hidden border shadow-lg">
               <Image
-                src="/placeholder.svg?height=400&width=600&query=property management software dashboard mobile"
+                src="https://static.wixstatic.com/media/7cb661_edc5239437b0403e9834020af153f0e3~mv2.png"
                 alt="Property management mobile app"
                 width={600}
                 height={400}
@@ -114,7 +114,7 @@ export default function PropertyManagementPage() {
           <div className="grid gap-8 md:grid-cols-2 items-center">
             <div className="relative rounded-xl overflow-hidden border shadow-lg md:order-first order-last">
               <Image
-                src="/placeholder.svg?height=400&width=600&query=real estate financial analytics dashboard"
+                src="https://static.wixstatic.com/media/7cb661_54ffc4dae5df48ef86de1d8563e41fe6~mv2.png"
                 alt="Financial reporting dashboard"
                 width={600}
                 height={400}
@@ -164,7 +164,7 @@ export default function PropertyManagementPage() {
             <Card className="overflow-hidden border-none shadow-md">
               <div className="aspect-video w-full overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=300&width=500&query=emergency maintenance repair van"
+                  src="https://static.wixstatic.com/media/7cb661_b0c745251e3b45c8b335bf7bf1ed708d~mv2.png"
                   alt="Maintenance services"
                   width={500}
                   height={300}
@@ -183,7 +183,7 @@ export default function PropertyManagementPage() {
             <Card className="overflow-hidden border-none shadow-md">
               <div className="aspect-video w-full overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=300&width=500&query=property inspection checklist"
+                  src="https://static.wixstatic.com/media/7cb661_ee01718c95bc4956912ee09000d1ef03~mv2.png"
                   alt="Preventative maintenance"
                   width={500}
                   height={300}
@@ -201,7 +201,7 @@ export default function PropertyManagementPage() {
             <Card className="overflow-hidden border-none shadow-md">
               <div className="aspect-video w-full overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=300&width=500&query=home renovation before after"
+                  src="https://static.wixstatic.com/media/7cb661_3e60321bd5a9456cbaf0793aa11a544c~mv2.png"
                   alt="Renovation services"
                   width={500}
                   height={300}
@@ -380,7 +380,7 @@ export default function PropertyManagementPage() {
             </div>
             <div className="relative rounded-xl overflow-hidden border shadow-lg">
               <Image
-                src="/placeholder.svg?height=400&width=600&query=owner portal property management interface"
+                src="https://static.wixstatic.com/media/7cb661_9cfda0d07d934cd0afbf2c949ea99737~mv2.png"
                 alt="Owner portal dashboard"
                 width={600}
                 height={400}

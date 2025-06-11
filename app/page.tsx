@@ -31,19 +31,19 @@ export default function LandingPage() {
 
   const propertyImages = [
     {
-      src: "/placeholder.svg?height=400&width=600&query=modern 2 bedroom apartment interior",
+      src: "https://static.wixstatic.com/media/7cb661_0449114a1fb64032bbfa33b67beea1e9~mv2.jpg", // Qterra property interior
       alt: "2 bedroom apartment",
       title: "$1,250/month",
       description: "2 bed, 1 bath • 850 sqft • Downtown",
     },
     {
-      src: "/placeholder.svg?height=400&width=600&query=spacious 3 bedroom house exterior",
+      src: "https://static.wixstatic.com/media/7cb661_3e60321bd5a9456cbaf0793aa11a544c~mv2.png", // Qterra property exterior
       alt: "3 bedroom house",
       title: "$1,850/month",
       description: "3 bed, 2 bath • 1200 sqft • Westside",
     },
     {
-      src: "/placeholder.svg?height=400&width=600&query=luxury 3 bedroom condo with balcony",
+      src: "https://static.wixstatic.com/media/7cb661_61db95c0f5644a82b9bf40ab250ea70a~mv2.jpg", // Qterra luxury condo
       alt: "3 bedroom condo",
       title: "$2,100/month",
       description: "3 bed, 2.5 bath • 1500 sqft • Northside",
@@ -157,8 +157,8 @@ export default function LandingPage() {
             </div>
             <div className="relative rounded-xl overflow-hidden border shadow-xl">
               <Image
-                src="/placeholder.svg?height=500&width=700&query=property management dashboard interface"
-                alt="Property management calendar"
+                src="https://static.wixstatic.com/media/7cb661_b67ee492d2c1410dbd4758fe494864f8~mv2.png"
+                alt="Property management dashboard"
                 width={700}
                 height={500}
                 className="w-full"
@@ -259,7 +259,7 @@ export default function LandingPage() {
             <Card className="overflow-hidden border-none shadow-lg hover:shadow-xl transition-all duration-300 group">
               <div className="aspect-video w-full overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=300&width=500&query=rental guarantee handshake agreement"
+                  src="https://static.wixstatic.com/media/7cb661_0449114a1fb64032bbfa33b67beea1e9~mv2.jpg"
                   alt="Rental Guarantee"
                   width={500}
                   height={300}
@@ -281,7 +281,7 @@ export default function LandingPage() {
             <Card className="overflow-hidden border-none shadow-lg hover:shadow-xl transition-all duration-300 group">
               <div className="aspect-video w-full overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=300&width=500&query=property management professional service"
+                  src="https://static.wixstatic.com/media/7cb661_3e60321bd5a9456cbaf0793aa11a544c~mv2.png"
                   alt="Property Management"
                   width={500}
                   height={300}
@@ -303,7 +303,7 @@ export default function LandingPage() {
             <Card className="overflow-hidden border-none shadow-lg hover:shadow-xl transition-all duration-300 group">
               <div className="aspect-video w-full overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=300&width=500&query=tenant placement screening interview"
+                  src="https://static.wixstatic.com/media/7cb661_61db95c0f5644a82b9bf40ab250ea70a~mv2.jpg"
                   alt="Tenant Placement"
                   width={500}
                   height={300}

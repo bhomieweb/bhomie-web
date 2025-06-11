@@ -11,7 +11,7 @@ export default function TenantPlacementPage() {
       <section className="relative bg-gray-900 py-20 md:py-28">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=800&width=1600&query=tenant placement service professional handshake"
+            src="https://static.wixstatic.com/media/7cb661_3e60321bd5a9456cbaf0793aa11a544c~mv2.png"
             alt="Tenant Placement"
             fill
             className="object-cover opacity-30"
@@ -182,7 +182,7 @@ export default function TenantPlacementPage() {
           <div className="grid gap-8 md:grid-cols-2 items-center">
             <div className="relative rounded-xl overflow-hidden border shadow-lg md:order-first order-last">
               <Image
-                src="/placeholder.svg?height=400&width=600&query=landlord tenant signing rental lease agreement"
+                src="https://static.wixstatic.com/media/7cb661_ec64dbbbe84545f0b0c6c4072f063607~mv2.jpg"
                 alt="Residential leasing"
                 width={600}
                 height={400}
@@ -310,7 +310,7 @@ export default function TenantPlacementPage() {
             </div>
             <div className="relative rounded-xl overflow-hidden border shadow-lg">
               <Image
-                src="/placeholder.svg?height=400&width=600&query=property insurance protection coverage"
+                src="https://static.wixstatic.com/media/7cb661_ee01718c95bc4956912ee09000d1ef03~mv2.png"
                 alt="Property protection"
                 width={600}
                 height={400}
@@ -381,7 +381,7 @@ export default function TenantPlacementPage() {
               </div>
               <div className="relative rounded-xl overflow-hidden border shadow-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=600&query=real estate agent referral partnership handshake"
+                  src="https://static.wixstatic.com/media/7cb661_61db95c0f5644a82b9bf40ab250ea70a~mv2.jpg"
                   alt="Realtor referral program"
                   width={600}
                   height={400}
