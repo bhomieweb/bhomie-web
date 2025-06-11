@@ -398,63 +398,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Find Rental Section */}
-      <section className="bg-gray-50 py-16 md:py-20">
-        <div className="container px-4 md:px-6">
-          <h2 className="text-3xl font-bold tracking-tight text-center md:text-4xl mb-12">Find Rental Properties</h2>
-          <div className="mb-8">
-            <ImageCarousel images={propertyImages} className="max-w-4xl mx-auto" />
-          </div>
-
-          {/* Property Search Filter */}
-          <div className="mb-12">
-            <PropertySearchFilter variant="compact" />
-          </div>
-
-          <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
-            {[
-              { price: "$1,250", beds: 2, baths: 1, sqft: 850, location: "Downtown" },
-              { price: "$1,850", beds: 3, baths: 2, sqft: 1200, location: "Westside" },
-              { price: "$2,100", beds: 3, baths: 2.5, sqft: 1500, location: "Northside" },
-            ].map((property, i) => (
-              <Card
-                key={i}
-                className="overflow-hidden border-none shadow-lg hover:shadow-xl transition-all duration-300 group"
-              >
-                <div className="aspect-[4/3] w-full overflow-hidden">
-                  <Image
-                    src={`/placeholder.svg?height=300&width=400&query=${property.beds} bedroom apartment ${property.location}`}
-                    alt={`${property.beds} bedroom apartment`}
-                    width={400}
-                    height={300}
-                    className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <CardContent className="p-6 space-y-4">
-                  <div className="flex justify-between items-center">
-                    <h3 className="text-xl font-bold text-maroon-700">{property.price}/month</h3>
-                    <span className="text-sm text-gray-500 bg-gray-100 px-2 py-1 rounded">{property.location}</span>
-                  </div>
-                  <div className="flex justify-between text-sm text-gray-600">
-                    <span>{property.beds} Beds</span>
-                    <span>{property.baths} Baths</span>
-                    <span>{property.sqft} sqft</span>
-                  </div>
-                  <EnhancedButton variant="primary" className="w-full">
-                    View Details
-                  </EnhancedButton>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-          <div className="mt-12 text-center">
-            <EnhancedButton variant="outline" size="lg">
-              View All Properties
-            </EnhancedButton>
-          </div>
-        </div>
-      </section>
-
       {/* Contact Section */}
       <section id="contact" className="py-16 md:py-20 bg-gradient-to-br from-maroon-50 to-amber-50">
         <div className="container px-4 md:px-6">
